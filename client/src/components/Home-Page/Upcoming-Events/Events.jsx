@@ -41,9 +41,7 @@ const Events = () => {
               with exhibitions that bring you closer to Van Gogh as an artist
               and a person.
             </p>
-            <p>
-              <i>10 February 2023 - 10 April 2023</i>:
-            </p>
+            <p>10 February 2023 - 10 April 2023:</p>
             <p>
               get to know the family behind Vincent van Gogh in the exhibition
               Choosing Vincent.
@@ -64,9 +62,7 @@ const Events = () => {
           <div className="section-para" style={{ textAlign: "center" }}>
             <h4>Collection of automobiles </h4>
             <h3>in LOUWMAN MUSEUM</h3>
-            <p>
-              <i>1 January 2023 - 31 December 2023</i>
-            </p>
+            <p>1 January 2023 - 31 December 2023</p>
           </div>
           <a
             target="_blank"
@@ -85,9 +81,7 @@ const Events = () => {
 
         <div className="event-sections-text">
           <div className="section-para">
-            <h4>
-              <i>18 February 2023 - 10 September 2023</i>
-            </h4>
+            <h4>18 February 2023 - 10 September 2023</h4>
             <h3>Escher - Other World</h3>
             <p>
               Birds that become fish, water that flows uphill, two hands drawing
