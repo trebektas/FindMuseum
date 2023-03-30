@@ -126,11 +126,11 @@ const ForgotPassword = () => {
         <div className="footer-forgotten-password">
           <div className="container--sign">
             <span>New here? </span>
-            <Link to="/register">Sign Up.</Link>
+            <Link to="/register">Register</Link>
           </div>
           <div className="container--sign">
             <span>Already have an account? </span>
-            <Link to="/login">Sign In.</Link>
+            <Link to="/login">Log In</Link>
           </div>
         </div>
       </form>
