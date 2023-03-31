@@ -41,6 +41,7 @@ const Events = () => {
               with exhibitions that bring you closer to Van Gogh as an artist
               and a person.
             </p>
+            <br />
             <p>10 February 2023 - 10 April 2023:</p>
             <p>
               get to know the family behind Vincent van Gogh in the exhibition
