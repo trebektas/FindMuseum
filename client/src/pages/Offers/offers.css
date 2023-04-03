@@ -56,7 +56,7 @@
 }
 
 .offer-item {
-  max-width: 100%;
+  width: 100%;
   max-height: 40vh;
   display: flex;
   border: 2px solid var(--navbar-color);
@@ -73,7 +73,12 @@
   transform: scale(1.1);
 }
 
+.offer-item-name {
+  width: 300px;
+}
+
 .offer-item-name img {
+  width: 300px;
   border-radius: 4px;
   object-fit: cover;
 }
@@ -146,7 +151,7 @@
 
   .head-part {
     max-width: 100%;
-    min-height: 80vh;
+    min-height: 40vh;
     display: flex;
     margin-top: 10vh;
     margin-bottom: 4vh;
@@ -166,5 +171,23 @@
   }
   .date-number h2 {
     padding-bottom: 1rem;
+  }
+
+  .offer-item-name {
+    width: 250px;
+  }
+
+  .offer-item-name img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 550px) {
+  .offer-item-name {
+    width: 200px;
+  }
+
+  .offer-item-name img {
+    width: 200px;
   }
 }
