@@ -34,33 +34,34 @@ To run the app in dev mode you can run the following command in the main directo
 ## 2. Code structure
 
 ```
-client
-├── public
-└── src
-|   └── __tests__
-|   └── __testUtils__
-|   └── components
-|   └── hooks
-|   └── pages
-|       └── __tests__
-|       └── components
-|   └── util
-|   index.jsx
-cypress
-|   └── fixtures
-|   └── integration
-|   └── plugins
-|   └── support
-server
-└── src
-    └── __tests__
-    └── __testUtils__
-    └── controllers
-    └── db
-    └── models
-    └── routes
-    └── util
-    index.js
+class40-project-team-sunday
+├─ client
+│  ├─ public
+│  └─ src
+│     ├─ App.jsx
+│     ├─ AppWrapper.jsx
+│     ├─ assets
+│     ├─ components
+│     ├─ context
+│     ├─ hooks
+│     ├─ index.jsx
+│     └─ pages
+├─ cypress
+|  ├─ fixtures
+|  ├─ integration
+|  ├─ plugins
+|  └─ support
+└─ server
+   └─ src
+      ├─ __tests__
+      ├─ app.js
+      ├─ controllers
+      ├─ data
+      ├─ db
+      ├─ index.js
+      ├─ models
+      ├─ routes
+      └─ util
 ```
 
 ### 2.1 Client structure
