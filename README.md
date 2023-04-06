@@ -4,9 +4,16 @@
 
 This is the final project for the HackYourFuture curriculum we did as a class using the MERN stack by following the agile methodology with our team and a group of mentors. A quick guide to what we built:
 
-> TODO: Add short description of the app
+With the increasing demand for museum visits, we thought of making such an app so that people can access museums and their information more easily. In our application, we have lots of features and detailed information about the museums in the Netherlands.
+Some of our features:
+- Authentication
+- Special Offers
+- Upcoming Events
+- Multiple filters
+- Favorites
+- Share experiences
 
-`[Click here for the Demo version]`
+[Find Museum Demo](https://c40-team-sunday.herokuapp.com/)
 
 ## 1. Setup
 
