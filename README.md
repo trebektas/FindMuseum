@@ -7,8 +7,8 @@ This is the final project for the HackYourFuture curriculum we did as a class us
 With the increasing demand for museum visits, we thought of making such an app so that people can access museums and their information more easily. In our application, we have lots of features and detailed information about the museums in the Netherlands.
 Some of our features:
 - Authentication
-- Special Offers
-- Upcoming Events
+- Special offers
+- Upcoming events
 - Multiple filters
 - Favorites
 - Share experiences
