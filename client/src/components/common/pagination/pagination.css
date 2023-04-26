@@ -12,15 +12,13 @@
   border-radius: 50% !important;
   text-align: center;
   padding: 4px 9px;
-  /* padding: 4px; */
 }
 .pagination li a:hover {
-  color: #a27b5c;
+  color: var(--border-color);
 }
 .pagination li.active a,
 .pagination li.active a.page-link {
-  background: #3f4e4f;
-  /* border-bottom: 2px solid #a27b5c; */
+  background: var(--background-color);
   color: white;
 }
 

@@ -1,7 +1,7 @@
 .home-offers-section {
   padding: 20px;
   display: flex;
-  background-color: #3f4e4f;
+  background-color: var(--background-color);
   justify-content: space-evenly;
 }
 
@@ -32,25 +32,25 @@
   justify-content: center;
   display: flex;
   margin-right: 200px;
-  color: #dcd7c9;
+  color: var(--textarea-color);
 }
 
 .home-offers-button {
   margin-bottom: 50px;
   border-radius: 4px;
-  background-color: #a27b5c;
+  background-color: var(--border-color);
   padding: 5px 15px;
   border: none;
   outline: none;
   width: 150px;
   height: 40px;
   font-size: 1.2rem;
-  color: #dcd7c9;
+  color: var(--textarea-color);
 }
 
 .home-offers-button:hover {
-  background-color: #dcd7c9;
-  color: #a27b5c;
+  background-color: var(--textarea-color);
+  color: var(--border-color);
   cursor: pointer;
 }
 /*museums events sections*/
@@ -67,36 +67,36 @@
 .kunstmuseum-section button {
   margin-top: 50px;
   border-radius: 4px;
-  background-color: #a27b5c;
+  background-color: var(--border-color);
   padding: 5px 15px;
   border: none;
   outline: none;
   width: 150px;
   height: 40px;
   font-size: 1.2rem;
-  color: #dcd7c9;
+  color: var(--textarea-color);
 }
 
 .kunstmuseum-section button:hover {
-  background-color: #3f4e4f;
+  background-color: var(--background-color);
   cursor: pointer;
 }
 
 .section-button {
   margin-top: 50px;
   border-radius: 4px;
-  background-color: #a27b5c;
+  background-color: var(--border-color);
   padding: 5px 15px;
   border: none;
   outline: none;
   width: 150px;
   height: 40px;
   font-size: 1.2rem;
-  color: #dcd7c9;
+  color: var(--textarea-color);
 }
 
 .section-button:hover {
-  background-color: #3f4e4f;
+  background-color: var(--background-color);
   cursor: pointer;
 }
 
@@ -107,19 +107,19 @@
 .louwman-section button {
   margin-top: 50px;
   border-radius: 4px;
-  background-color: #3f4e4f;
+  background-color: var(--background-color);
   padding: 5px 15px;
   border: none;
   outline: none;
   width: 150px;
   height: 40px;
   font-size: 1.2rem;
-  color: #dcd7c9;
+  color: var(--textarea-color);
 }
 
 .louwman-section button:hover {
-  background-color: #dcd7c9;
-  color: #3f4e4f;
+  background-color: var(--textarea-color);
+  color: var(--background-color);
   cursor: pointer;
 }
 

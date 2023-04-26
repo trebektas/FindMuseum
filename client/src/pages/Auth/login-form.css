@@ -14,11 +14,11 @@
 .header h1 {
   margin: 5px auto;
   font-size: 3rem;
-  color: #3f4e4f;
+  color: var(--background-color);
 }
 
 .register-link {
-  color: #3f4e4f;
+  color: var(--background-color);
   font-size: 1.3rem;
 }
 
@@ -36,7 +36,7 @@
 
 .login-input {
   border-radius: 4px;
-  box-shadow: 0 1px 3px 1px #dcd7c9;
+  box-shadow: 0 1px 3px 1px var(--textarea-color);
   border: none;
   width: 300px;
   height: 30px;
@@ -51,29 +51,29 @@
 
 .submit-button {
   border-radius: 4px;
-  background-color: #3f4e4f;
+  background-color: var(--background-color);
   padding: 5px 15px;
   border: none;
   outline: none;
   width: 150px;
   height: 40px;
   font-size: 1.2rem;
-  color: #dcd7c9;
+  color: var(--textarea-color);
   font-family: "Hubballi", cursive;
 }
 
 .submit-button:hover {
-  background-color: #a27b5c;
+  background-color: var(--border-color);
   color: white;
   cursor: pointer;
 }
 
 .forgot-password {
-  color: #3f4e4f;
+  color: var(--background-color);
   margin-top: 10px;
 }
 
 .forgot-password:hover {
-  color: #a27b5c;
+  color: var(--border-color);
   cursor: pointer;
 }

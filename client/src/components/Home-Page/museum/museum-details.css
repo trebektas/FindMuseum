@@ -21,7 +21,7 @@
   align-items: center;
   width: 50%;
   margin: 0 2rem;
-  filter: drop-shadow(2px 4px 4px #3f4e4f);
+  filter: drop-shadow(2px 4px 4px var(--background-color));
 }
 
 .hours-price {
@@ -87,11 +87,11 @@
 .museum-description h2 {
   font-size: 3rem;
   margin-bottom: 2rem;
-  color: #3f4e4f;
+  color: var(--background-color);
 }
 
 .museum-description p {
-  color: #2c3639;
+  color: var(--icon-color);
 }
 
 .museum-information {

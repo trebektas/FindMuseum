@@ -36,31 +36,31 @@
 }
 
 .profile-settings input {
-  border: 1px solid #2c3639;
+  border: 1px solid var(--icon-color);
   padding: 2px 5px;
   margin: 10px 0;
   outline: none;
-  color: #3f4e4f;
+  color: var(--background-color);
   height: 30px;
   border-radius: 3px;
 }
 
 .profile-update-btn {
   border-radius: 4px;
-  background-color: #3f4e4f;
+  background-color: var(--background-color);
   padding: 5px 15px;
   border: none;
   outline: none;
   width: 150px;
   height: 40px;
   font-size: 1.2rem;
-  color: #dcd7c9;
+  color: var(--textarea-color);
   cursor: pointer;
   margin: 10px auto;
 }
 
 .profile-update-btn:hover {
-  background-color: #a27b5c;
+  background-color: var(--border-color);
   color: white;
   cursor: pointer;
 }
@@ -92,21 +92,21 @@
 
 .upload-picture {
   border-radius: 4px;
-  background-color: #3f4e4f;
+  background-color: var(--background-color);
   padding: 5px 15px;
   border: none;
   outline: none;
   width: 150px;
   height: 40px;
   font-size: 1.2rem;
-  color: #dcd7c9;
+  color: var(--textarea-color);
   font-family: "Hubballi", cursive;
   margin: 0 auto;
   margin-top: 20px;
 }
 
 .upload-picture:hover {
-  background-color: #a27b5c;
+  background-color: var(--border-color);
   color: white;
   cursor: pointer;
 }

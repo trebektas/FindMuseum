@@ -19,7 +19,7 @@
 }
 .header--filter-bar button:hover {
   cursor: pointer;
-  color: #3f4e4f;
+  color: var(--background-color);
 }
 
 .hidden {
@@ -51,19 +51,19 @@
 
 .filter-buttons {
   padding: 7px 12px;
-  border: solid 2px #dcd7c9;
+  border: solid 2px var(--textarea-color);
   border-radius: 6px;
   cursor: pointer;
   background-color: transparent;
 }
 
 .filter-buttons:hover {
-  border-color: #3f4e4f;
+  border-color: var(--background-color);
 }
 
 .active-filter {
-  border-color: #3f4e4f;
-  background-color: #3f4e4f;
+  border-color: var(--background-color);
+  background-color: var(--background-color);
   color: white;
 }
 

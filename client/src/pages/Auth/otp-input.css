@@ -10,11 +10,11 @@
 .otp-group h1 {
   margin: 5px auto;
   font-size: 3rem;
-  color: #3f4e4f;
+  color: var(--background-color);
 }
 
 .otp-group p {
-  color: #3f4e4f;
+  color: var(--background-color);
   font-size: 1.3rem;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .otp-group form input {
-  background-color: #dcd7c9;
+  background-color: var(--textarea-color);
   border: none;
   height: 28px;
   outline: none;

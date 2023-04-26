@@ -21,11 +21,11 @@
 .header h1 {
   margin: 5px auto;
   font-size: 3rem;
-  color: #3f4e4f;
+  color: var(--background-color);
 }
 
 .login-link {
-  color: #3f4e4f;
+  color: var(--background-color);
   font-size: 1.3rem;
 }
 
@@ -43,7 +43,7 @@
 
 .container-input {
   border-radius: 4px;
-  background-color: #dcd7c9;
+  background-color: var(--textarea-color);
   padding: 5px 15px;
   box-shadow: 0 1px 10px 1px #6c7070;
   border: none;
@@ -52,13 +52,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  outline: 2px solid #a27b5c;
+  outline: 2px solid var(--border-color);
   margin: 0 auto;
 }
 
 .register-input {
   width: 245px;
-  background-color: #dcd7c9;
+  background-color: var(--textarea-color);
   border: none;
   height: 28px;
   outline: none;
@@ -73,18 +73,18 @@ input:-webkit-autofill:focus {
 
 .submit-button {
   border-radius: 4px;
-  background-color: #3f4e4f;
+  background-color: var(--background-color);
   padding: 5px 15px;
   border: none;
   outline: none;
   width: 150px;
   height: 40px;
   font-size: 1.2rem;
-  color: #dcd7c9;
+  color: var(--textarea-color);
 }
 
 .submit-button:hover {
-  background-color: #a27b5c;
+  background-color: var(--border-color);
   color: white;
   cursor: pointer;
 }
